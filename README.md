@@ -33,7 +33,7 @@ Given an rooted android phone, demonstrate how to acqurie volatile memory
         ```
     * **Verification:** The device should be listed, confirming that the ADB connection is ready.
    
-!
+![FIG-1](3.jpeg)
 
 ---
 
@@ -45,8 +45,6 @@ Given an rooted android phone, demonstrate how to acqurie volatile memory
         ```bash
         adb install aflogical.apk
         ```
-![images/exp1-disk-step1.png]
-
 2.  **Launch the AFLogical OSE App on the Device:**
     * On the Android device, open the newly installed AFLogical app.
 
@@ -65,12 +63,11 @@ Given an rooted android phone, demonstrate how to acqurie volatile memory
         ```bash
         adb pull /sdcard/aflogical /path/to/destination
         ```
-![images/exp1-disk-step1.png]
 
     * *Note: Replace `/path/to/destination` with the desired save location on your computer.*
 2.  **Verify the Data:**
     * Navigate to the destination directory and check the `.csv` files to ensure all required data has been successfully transferred.
-
+![alt text](<Screenshot 2025-11-12 170335.png>)
 ---
 
 ### Step 5: Analyze the Extracted Data
@@ -80,8 +77,7 @@ Given an rooted android phone, demonstrate how to acqurie volatile memory
 2.  **Review and Document:**
     * Carefully review the data for any relevant evidence or information.
     * Document all findings and prepare a comprehensive report.
-![images/exp1-disk-step1.png]
-
+![alt text](<Screenshot 2025-11-12 170353.png>)
 ### Step 6: Clean Up
 
 1.  **Uninstall AFLogical OSE:**
